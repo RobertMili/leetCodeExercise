@@ -2,7 +2,7 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-src/Vanja/**
+src/Vanja/**/
 
 ### Eclipse ###
 .apt_generated
