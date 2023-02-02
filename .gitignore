@@ -24,6 +24,7 @@ bin/
 
 ### VS Code ###
 .vscode/
+src/Vanja/**/
 
 ### Mac OS ###
 .DS_Store
