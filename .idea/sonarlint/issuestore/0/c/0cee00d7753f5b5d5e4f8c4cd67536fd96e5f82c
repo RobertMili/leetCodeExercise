@@ -1,0 +1,13 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕöÌ¡ûÿÿÿÿ
+C
+java:S2440"(Remove this instantiation of "Solution".(ËÊüşÿÿÿÿ
+K
+java:S2209
+"5Change this instance-reference to a static reference.(øÚ²¶
+P
+java:S1118":Add a private constructor to hide the implicit public one.(¬ÙÅŠ
+@
+java:S1481"*Remove this unused "index" local variable.(ìüà·
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8–‚¼œá0

@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="2.day">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addTwoNumbers/addTwoNUmbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addTwoNumbers/addTwoNUmbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/buildArrayFromPermutation/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildArrayFromPermutation/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +34,11 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -62,6 +70,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -73,16 +84,17 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="addString" />
       <recent name="buildArrayFromPermutation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.buildArrayFromPermutation.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buildArrayFromPermutation.Main" />
+  <component name="RunManager" selected="Application.addToArrayFOrmOfIngeter.Main (1)">
+    <configuration name="addToArrayFOrmOfIngeter.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addToArrayFOrmOfIngeter.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="buildArrayFromPermutation.*" />
+          <option name="PATTERN" value="addToArrayFOrmOfIngeter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,38 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buildArrayFromPermutation.Main" />
+    <configuration name="addToArrayFOrmOfIngeter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="addToArrayFOrmOfIngeter.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="buildArrayFromPermutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buildArrayFromPermutation.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="buildArrayFromPermutation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="buildArrayFromPermutation.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buildArrayFromPermutation.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="buildArrayFromPermutation.*" />
+          <option name="PATTERN" value="addToArrayFOrmOfIngeter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,17 +128,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="buildArrayFromPermutation.*" />
+          <option name="PATTERN" value="addString.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="buildArrayFromPermutation" />
-      <option name="MAIN_CLASS_NAME" value="buildArrayFromPermutation.SolutionTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="addString" />
+      <option name="MAIN_CLASS_NAME" value="addString.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.addString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addString" />
+      <option name="MAIN_CLASS_NAME" value="addString.SolutionTest" />
+      <option name="METHOD_NAME" value="addString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.addStringsLong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="addString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="addString" />
+      <option name="MAIN_CLASS_NAME" value="addString.SolutionTest" />
+      <option name="METHOD_NAME" value="addStringsLong" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.buildArrayFromPermutation.Main" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SolutionTest.test" />
+        <item itemvalue="Application.addToArrayFOrmOfIngeter.Main (1)" />
+        <item itemvalue="Application.addToArrayFOrmOfIngeter.Main" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.addStringsLong" />
+        <item itemvalue="JUnit.SolutionTest.addString" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +229,8 @@
       <workItem from="1674030915785" duration="138000" />
       <workItem from="1674038468031" duration="1214000" />
       <workItem from="1674066108403" duration="97000" />
-      <workItem from="1675350054877" duration="5807000" />
+      <workItem from="1675350054877" duration="8219000" />
+      <workItem from="1675504008705" duration="1783000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
