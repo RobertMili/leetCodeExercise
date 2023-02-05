@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/twoSum/twoSum.java" afterDir="false" />
-    </list>
+    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="2.day" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,11 +14,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="github" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupGrunt">
+      <scroll-view-position x="0" y="0" />
+    </layout>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -39,24 +47,52 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/robertmilicevic/Desktop/ITHS-Utbildning-JAVA/Udemy/MyCalculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="middleOfTheLinkedList" />
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="mergeTwoSortsList" />
+      <recent name="middleOfTheLinkedList" />
+      <recent name="addBinary" />
+      <recent name="addString" />
+      <recent name="buildArrayFromPermutation" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="romanToInteger.Main" />
+  <component name="RunManager" selected="JUnit.SolutionTest.adding4Numbers">
+    <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="romanToInteger.*" />
+          <option name="PATTERN" value="singleNumber.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,72 +100,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="romanToInteger.Main" />
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="romanToInteger.*" />
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="romanToInteger.Main" />
+    <configuration name="SolutionTest.adding4Numbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="romanToInteger.*" />
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="adding4Numbers" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="romanToInteger.Main" />
+    <configuration name="SolutionTest.addingTwoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="romanToInteger.*" />
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="addingTwoList" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="romanToInteger.Main" />
+    <configuration name="SolutionTest.mergeCheckingIfIsWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="romanToInteger.*" />
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeCheckingIfIsWork" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="addTwoNUmbers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addTwoNUmbers" />
+    <configuration name="SolutionTest.mergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SolutionTest.adding4Numbers" />
+        <item itemvalue="JUnit.SolutionTest.addingTwoList" />
+        <item itemvalue="JUnit.SolutionTest.mergeCheckingIfIsWork" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.mergeTwoLists" />
       </list>
     </recent_temporary>
   </component>
@@ -143,8 +199,57 @@
       <updated>1671193652345</updated>
       <workItem from="1671193653940" duration="10012000" />
       <workItem from="1671208537245" duration="1466000" />
-      <workItem from="1671269026670" duration="5462000" />
+      <workItem from="1671269026670" duration="5537000" />
+      <workItem from="1671437055346" duration="868000" />
+      <workItem from="1671448280306" duration="524000" />
+      <workItem from="1671467179051" duration="6827000" />
+      <workItem from="1671476757887" duration="885000" />
+      <workItem from="1671480213000" duration="5361000" />
+      <workItem from="1671526972635" duration="6861000" />
+      <workItem from="1671546427092" duration="13996000" />
+      <workItem from="1672655412939" duration="11000" />
+      <workItem from="1672657696808" duration="622000" />
+      <workItem from="1672681588931" duration="2453000" />
+      <workItem from="1672740326126" duration="3005000" />
+      <workItem from="1672753014603" duration="7063000" />
+      <workItem from="1672775839977" duration="7673000" />
+      <workItem from="1672824978266" duration="2019000" />
+      <workItem from="1672916140570" duration="5084000" />
+      <workItem from="1672921511407" duration="3502000" />
+      <workItem from="1673003624768" duration="1000000" />
+      <workItem from="1673014802616" duration="616000" />
+      <workItem from="1673790554438" duration="1559000" />
+      <workItem from="1673792148865" duration="605000" />
+      <workItem from="1673855436904" duration="2000" />
+      <workItem from="1673903805241" duration="370000" />
+      <workItem from="1673992454924" duration="124000" />
+      <workItem from="1673997888688" duration="39000" />
+      <workItem from="1673998124825" duration="17000" />
+      <workItem from="1673998151471" duration="163000" />
+      <workItem from="1673998322049" duration="1032000" />
+      <workItem from="1674028411553" duration="316000" />
+      <workItem from="1674028750462" duration="242000" />
+      <workItem from="1674029217284" duration="18000" />
+      <workItem from="1674030915785" duration="138000" />
+      <workItem from="1674038468031" duration="1214000" />
+      <workItem from="1674066108403" duration="97000" />
+      <workItem from="1675350054877" duration="8219000" />
+      <workItem from="1675504008705" duration="4453000" />
+      <workItem from="1675593586733" duration="8247000" />
     </task>
+    <task id="LOCAL−00001" summary="2.day">
+      <created>1671274569975</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1671274569975</updated>
+    </task>
+    <task id="LOCAL−00002" summary="2.day">
+      <created>1671274585030</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1671274585030</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,5 +265,24 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.day" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.day" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/addBinary/Main.java</url>
+          <line>7</line>
+          <properties class="addBinary.Solution" method="addBinary">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

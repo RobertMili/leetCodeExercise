@@ -1,0 +1,10 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÕöÌ¡ûÿÿÿÿ
+C
+java:S2440"(Remove this instantiation of "Solution".(ËÊüşÿÿÿÿ
+Q
+java:S2209"5Change this instance-reference to a static reference.(µÔº-8æÒãœá0
+X
+java:S1128	"=Remove this unused import 'org.junit.jupiter.api.Assertions'.(âè¨ùÿÿÿÿ
+M
+java:S5960"+Remove this assertion from production code.(³Ôå²øÿÿÿÿ8ÿ¦ãœá0
