@@ -7,9 +7,9 @@
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="2.day">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addTwoNumbers/addTwoNUmbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addTwoNumbers/addTwoNUmbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/buildArrayFromPermutation/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/buildArrayFromPermutation/SolutionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addBinary/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addBinary/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addTwoNumbers/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addTwoNumbers/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mergeTwoSortsList/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergeTwoSortsList/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,70 +51,48 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "create.test.in.the.same.root": "true",
-    "last_opened_file_path": "/home/robertmilicevic/Desktop/ITHS-Utbildning-JAVA/Udemy/MyCalculator",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/robertmilicevic/Desktop/ITHS-Utbildning-JAVA/Udemy/MyCalculator&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="middleOfTheLinkedList" />
       <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mergeTwoSortsList" />
+      <recent name="middleOfTheLinkedList" />
+      <recent name="addBinary" />
       <recent name="addString" />
       <recent name="buildArrayFromPermutation" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.addToArrayFOrmOfIngeter.Main (1)">
-    <configuration name="addToArrayFOrmOfIngeter.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addToArrayFOrmOfIngeter.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addToArrayFOrmOfIngeter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="addToArrayFOrmOfIngeter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addToArrayFOrmOfIngeter.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addToArrayFOrmOfIngeter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest.addingTwoList">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -128,48 +106,80 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.testingOn3Elements" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addString.*" />
+          <option name="PATTERN" value="middleOfTheLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="addString" />
-      <option name="MAIN_CLASS_NAME" value="addString.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.addString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addString.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="addString" />
-      <option name="MAIN_CLASS_NAME" value="addString.SolutionTest" />
-      <option name="METHOD_NAME" value="addString" />
+      <option name="PACKAGE_NAME" value="middleOfTheLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="middleOfTheLinkedList.MainTest" />
+      <option name="METHOD_NAME" value="testingOn3Elements" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.addStringsLong" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="addString.*" />
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="addString" />
-      <option name="MAIN_CLASS_NAME" value="addString.SolutionTest" />
-      <option name="METHOD_NAME" value="addStringsLong" />
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.addingTwoList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="addingTwoList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.mergeCheckingIfIsWork" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeCheckingIfIsWork" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.mergeTwoLists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeTwoSortsList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
+      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
+      <option name="METHOD_NAME" value="mergeTwoLists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.addToArrayFOrmOfIngeter.Main (1)" />
-        <item itemvalue="Application.addToArrayFOrmOfIngeter.Main" />
+        <item itemvalue="JUnit.SolutionTest.addingTwoList" />
+        <item itemvalue="JUnit.SolutionTest.mergeCheckingIfIsWork" />
+        <item itemvalue="JUnit.SolutionTest.mergeTwoLists" />
         <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.addStringsLong" />
-        <item itemvalue="JUnit.SolutionTest.addString" />
+        <item itemvalue="JUnit.MainTest.testingOn3Elements" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +240,8 @@
       <workItem from="1674038468031" duration="1214000" />
       <workItem from="1674066108403" duration="97000" />
       <workItem from="1675350054877" duration="8219000" />
-      <workItem from="1675504008705" duration="1783000" />
+      <workItem from="1675504008705" duration="4453000" />
+      <workItem from="1675593586733" duration="6573000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -264,5 +275,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.day" />
     <option name="LAST_COMMIT_MESSAGE" value="2.day" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/addBinary/Main.java</url>
+          <line>7</line>
+          <properties class="addBinary.Solution" method="addBinary">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

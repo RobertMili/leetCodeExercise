@@ -22,3 +22,15 @@ R
 "src/defangingAnIPAddress/Main.java,0/7/075f0e03405b5829efa2de247b2603b6431cf46c
 R
 "src/defangingAnIPAddress/Readme.md,5/3/53fb5860140f3f8a9b67a86d4477c1655d28de25
+a
+1src/finalValueOfVariableAfterPerforming/Main.java,2/a/2af1e43a0178ad569f0844a283edfcd2b4540f7e
+a
+1src/finalValueOfVariableAfterPerforming/Readme.md,4/3/43a3a3f43cde766b009c43b2cfc4f558973129aa
+T
+$src/addTwoNumbers/addTwoNUmbers.java,6/7/67443bb0567a169294b9c860ae7c9dc1e5ee2500
+G
+src/addString/Readme.md,8/e/8e67c1803d4891e7f82237ba62b306ae07a8c386
+U
+%src/addToArrayFOrmOfIngeter/Main.java,5/0/5018539f6365326943f476d8d839438ae95e3e2c
+O
+src/addString/SolutionTest.java,7/e/7e84b32fcfed35e7bf2c3d08a479701912cc8560
