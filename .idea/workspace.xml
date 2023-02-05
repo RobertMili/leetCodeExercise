@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="2.day">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mergeTwoSortsList/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergeTwoSortsList/SolutionTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="2.day" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,7 +235,7 @@
       <workItem from="1674066108403" duration="97000" />
       <workItem from="1675350054877" duration="8219000" />
       <workItem from="1675504008705" duration="4453000" />
-      <workItem from="1675593586733" duration="7772000" />
+      <workItem from="1675593586733" duration="8247000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
