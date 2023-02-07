@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="2.day">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mergeTwoSortsList/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mergeTwoSortsList/SolutionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="github" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -82,14 +84,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="removeDuplicatesFromSortedArray" />
       <recent name="mergeTwoSortsList" />
       <recent name="middleOfTheLinkedList" />
       <recent name="addBinary" />
       <recent name="addString" />
-      <recent name="buildArrayFromPermutation" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.adding4Numbers">
+  <component name="RunManager" selected="JUnit.MainTest.firstTest">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -103,17 +105,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MainTest.firstTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mergeTwoSortsList.*" />
+          <option name="PATTERN" value="removeDuplicatesFromSortedArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mergeTwoSortsList" />
-      <option name="MAIN_CLASS_NAME" value="mergeTwoSortsList.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="removeDuplicatesFromSortedArray" />
+      <option name="MAIN_CLASS_NAME" value="removeDuplicatesFromSortedArray.MainTest" />
+      <option name="METHOD_NAME" value="firstTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -184,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.adding4Numbers" />
-        <item itemvalue="JUnit.SolutionTest.addingTwoList" />
-        <item itemvalue="JUnit.SolutionTest.mergeCheckingIfIsWork" />
-        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.MainTest.firstTest" />
         <item itemvalue="JUnit.SolutionTest.mergeTwoLists" />
+        <item itemvalue="JUnit.SolutionTest.mergeCheckingIfIsWork" />
+        <item itemvalue="JUnit.SolutionTest.addingTwoList" />
+        <item itemvalue="JUnit.SolutionTest.adding4Numbers" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +242,10 @@
       <workItem from="1675350054877" duration="8219000" />
       <workItem from="1675504008705" duration="4453000" />
       <workItem from="1675593586733" duration="7772000" />
+      <workItem from="1675626231839" duration="14000" />
+      <workItem from="1675678914271" duration="4000" />
+      <workItem from="1675697453421" duration="1707000" />
+      <workItem from="1675762658561" duration="6157000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
