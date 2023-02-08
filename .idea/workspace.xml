@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/removeDuplicatesFromSortedArray/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/removeDuplicatesFromSortedArray/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +251,7 @@
       <workItem from="1675853545907" duration="658000" />
       <workItem from="1675858299184" duration="1227000" />
       <workItem from="1675860998179" duration="949000" />
-      <workItem from="1675861957340" duration="997000" />
+      <workItem from="1675861957340" duration="1813000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -272,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1675862326639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2.day">
+      <created>1675864382768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675864382768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="3">
+      <created>1675864460766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675864460766</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,7 +305,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2.day" />
-    <option name="LAST_COMMIT_MESSAGE" value="2.day" />
+    <MESSAGE value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
