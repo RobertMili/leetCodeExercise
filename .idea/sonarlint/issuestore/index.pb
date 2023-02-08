@@ -38,3 +38,5 @@ O
 src/addTwoNumbers/ListNode.java,4/3/43a65bf8f3da50c2c36aa6dab871d7239b193577
 W
 'src/mergeTwoSortsList/SolutionTest.java,8/e/8e5381f74d15a3b6f226355a14918443dd4edafd
+]
+-src/removeDuplicatesFromSortedArray/Main.java,0/f/0f077317ef23353f21a466c3ca34de7e75da454f
