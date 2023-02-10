@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
+    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="testing.asd&#10;asd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/shuffleString/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shuffleString/Main.java" afterDir="false" />
     </list>
@@ -248,7 +248,10 @@
       <workItem from="1675873172236" duration="1902000" />
       <workItem from="1675888176505" duration="3033000" />
       <workItem from="1675974125684" duration="12000" />
-      <workItem from="1676026058133" duration="2271000" />
+      <workItem from="1676026058133" duration="6311000" />
+      <workItem from="1676036044102" duration="647000" />
+      <workItem from="1676038151187" duration="705000" />
+      <workItem from="1676039100595" duration="635000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -297,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676027952575</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="testing.">
+      <created>1676028334438</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676028334438</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +328,10 @@
     <MESSAGE value="2.day" />
     <MESSAGE value="3" />
     <MESSAGE value="testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing" />
+    <MESSAGE value="testing." />
+    <MESSAGE value="testing.asd" />
+    <MESSAGE value="testing.asd&#10;asd" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing.asd&#10;asd" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
