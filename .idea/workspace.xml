@@ -85,20 +85,20 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="checkIfTwoStringArraysAreEquivalent" />
       <recent name="shuffleString" />
       <recent name="reverseString" />
       <recent name="removeDuplicatesFromSortedArray" />
       <recent name="mergeTwoSortsList" />
-      <recent name="middleOfTheLinkedList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reverseString.Main" />
+  <component name="RunManager" selected="JUnit.SolutionTest.arrayStringAreEqual">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reverseString.*" />
+          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shuffleString.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shuffleString.Main" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shuffleString.*" />
+          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="shuffleString.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="shuffleString.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shuffleString.*" />
+          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,32 +145,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shuffleString.*" />
+          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="shuffleString" />
-      <option name="MAIN_CLASS_NAME" value="shuffleString.SolutionTest" />
+      <option name="PACKAGE_NAME" value="checkIfTwoStringArraysAreEquivalent" />
+      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.restoreString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.arrayStringAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="shuffleString.*" />
+          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="shuffleString" />
-      <option name="MAIN_CLASS_NAME" value="shuffleString.SolutionTest" />
-      <option name="METHOD_NAME" value="restoreString" />
+      <option name="PACKAGE_NAME" value="checkIfTwoStringArraysAreEquivalent" />
+      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.SolutionTest" />
+      <option name="METHOD_NAME" value="arrayStringAreEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.restoreString" />
-        <item itemvalue="Application.shuffleString.Main (1)" />
-        <item itemvalue="Application.shuffleString.Main" />
-        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="JUnit.SolutionTest.arrayStringAreEqual" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +252,9 @@
       <workItem from="1676038151187" duration="705000" />
       <workItem from="1676039100595" duration="1682000" />
       <workItem from="1676290791551" duration="1331000" />
-      <workItem from="1676292134178" duration="1426000" />
+      <workItem from="1676292134178" duration="2065000" />
+      <workItem from="1676301569188" duration="423000" />
+      <workItem from="1676303553633" duration="1010000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
