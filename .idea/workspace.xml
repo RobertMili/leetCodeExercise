@@ -85,53 +85,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="mergeStringAlternately" />
       <recent name="checkIfTwoStringArraysAreEquivalent" />
       <recent name="shuffleString" />
       <recent name="reverseString" />
       <recent name="removeDuplicatesFromSortedArray" />
-      <recent name="mergeTwoSortsList" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.arrayStringAreEqual">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolutionTest.thirdsTest">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -145,16 +106,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
+          <option name="PATTERN" value="mergeStringAlternately.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="checkIfTwoStringArraysAreEquivalent" />
-      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.SolutionTest" />
+      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
+      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,13 +137,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeStringAlternately.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
+      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
+      <option name="METHOD_NAME" value="secondTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testingMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeStringAlternately.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
+      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
+      <option name="METHOD_NAME" value="testingMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.thirdsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mergeStringAlternately.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
+      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
+      <option name="METHOD_NAME" value="thirdsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.thirdsTest" />
+        <item itemvalue="JUnit.SolutionTest.secondTest" />
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.testingMethod" />
         <item itemvalue="JUnit.SolutionTest.arrayStringAreEqual" />
-        <item itemvalue="Application.Main (2)" />
-        <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +263,7 @@
       <workItem from="1676290791551" duration="1331000" />
       <workItem from="1676292134178" duration="2065000" />
       <workItem from="1676301569188" duration="423000" />
-      <workItem from="1676303553633" duration="1010000" />
+      <workItem from="1676303553633" duration="5316000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
