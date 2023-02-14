@@ -85,14 +85,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="CountOddNUmbersInAnIntervalRange" />
       <recent name="mergeStringAlternately" />
       <recent name="checkIfTwoStringArraysAreEquivalent" />
       <recent name="shuffleString" />
       <recent name="reverseString" />
-      <recent name="removeDuplicatesFromSortedArray" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.thirdsTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -106,64 +106,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mergeStringAlternately.*" />
+          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
-      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
+      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
+      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.arrayStringAreEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testLongNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="checkIfTwoStringArraysAreEquivalent.*" />
+          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="checkIfTwoStringArraysAreEquivalent" />
-      <option name="MAIN_CLASS_NAME" value="checkIfTwoStringArraysAreEquivalent.SolutionTest" />
-      <option name="METHOD_NAME" value="arrayStringAreEqual" />
+      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
+      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
+      <option name="METHOD_NAME" value="testLongNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.secondTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testing3and7result3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mergeStringAlternately.*" />
+          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
-      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
-      <option name="METHOD_NAME" value="secondTest" />
+      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
+      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
+      <option name="METHOD_NAME" value="testing3and7result3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testingMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.testing8and10result1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mergeStringAlternately.*" />
+          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
-      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
-      <option name="METHOD_NAME" value="testingMethod" />
+      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
+      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
+      <option name="METHOD_NAME" value="testing8and10result1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +187,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.testLongNumbers" />
+        <item itemvalue="JUnit.SolutionTest.testing8and10result1" />
+        <item itemvalue="JUnit.SolutionTest.testing3and7result3" />
         <item itemvalue="JUnit.SolutionTest.thirdsTest" />
-        <item itemvalue="JUnit.SolutionTest.secondTest" />
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.testingMethod" />
-        <item itemvalue="JUnit.SolutionTest.arrayStringAreEqual" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +263,9 @@
       <workItem from="1676290791551" duration="1331000" />
       <workItem from="1676292134178" duration="2065000" />
       <workItem from="1676301569188" duration="423000" />
-      <workItem from="1676303553633" duration="5316000" />
+      <workItem from="1676303553633" duration="6030000" />
+      <workItem from="1676309718259" duration="547000" />
+      <workItem from="1676365279454" duration="1987000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
