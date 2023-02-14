@@ -84,14 +84,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="runingSumOf1DArray" />
       <recent name="averageSalaryExcludingTheMinimumAndMaximumSalary" />
       <recent name="CountOddNUmbersInAnIntervalRange" />
       <recent name="mergeStringAlternately" />
       <recent name="checkIfTwoStringArraysAreEquivalent" />
-      <recent name="shuffleString" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.testExample2">
+  <component name="RunManager" selected="JUnit.SolutionTest">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -116,6 +116,37 @@
       <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
       <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runingSumOf1DArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runingSumOf1DArray" />
+      <option name="MAIN_CLASS_NAME" value="runingSumOf1DArray.SolutionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.Example1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="runingSumOf1DArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="runingSumOf1DArray" />
+      <option name="MAIN_CLASS_NAME" value="runingSumOf1DArray.SolutionTest" />
+      <option name="METHOD_NAME" value="Example1" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,45 +183,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testLongNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
-      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
-      <option name="METHOD_NAME" value="testLongNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.testing8and10result1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
-      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
-      <option name="METHOD_NAME" value="testing8and10result1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest" />
+        <item itemvalue="JUnit.SolutionTest.Example1" />
         <item itemvalue="JUnit.SolutionTest.testExample2" />
         <item itemvalue="JUnit.SolutionTest.testExample1" />
         <item itemvalue="JUnit.SolutionTest (1)" />
-        <item itemvalue="JUnit.SolutionTest.testLongNumbers" />
-        <item itemvalue="JUnit.SolutionTest.testing8and10result1" />
       </list>
     </recent_temporary>
   </component>
@@ -264,7 +263,7 @@
       <workItem from="1676301569188" duration="423000" />
       <workItem from="1676303553633" duration="6030000" />
       <workItem from="1676309718259" duration="547000" />
-      <workItem from="1676365279454" duration="4956000" />
+      <workItem from="1676365279454" duration="7081000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
