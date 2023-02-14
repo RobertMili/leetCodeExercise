@@ -28,7 +28,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -85,14 +84,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="averageSalaryExcludingTheMinimumAndMaximumSalary" />
       <recent name="CountOddNUmbersInAnIntervalRange" />
       <recent name="mergeStringAlternately" />
       <recent name="checkIfTwoStringArraysAreEquivalent" />
       <recent name="shuffleString" />
-      <recent name="reverseString" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest (1)">
+  <component name="RunManager" selected="JUnit.SolutionTest.testExample2">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -121,6 +120,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolutionTest.testExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="averageSalaryExcludingTheMinimumAndMaximumSalary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary" />
+      <option name="MAIN_CLASS_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary.SolutionTest" />
+      <option name="METHOD_NAME" value="testExample1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.testExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="averageSalaryExcludingTheMinimumAndMaximumSalary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary" />
+      <option name="MAIN_CLASS_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary.SolutionTest" />
+      <option name="METHOD_NAME" value="testExample2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolutionTest.testLongNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
@@ -132,22 +163,6 @@
       <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
       <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
       <option name="METHOD_NAME" value="testLongNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.testing3and7result3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
-      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
-      <option name="METHOD_NAME" value="testing3and7result3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -169,29 +184,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.thirdsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mergeStringAlternately.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mergeStringAlternately" />
-      <option name="MAIN_CLASS_NAME" value="mergeStringAlternately.SolutionTest" />
-      <option name="METHOD_NAME" value="thirdsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolutionTest.testExample2" />
+        <item itemvalue="JUnit.SolutionTest.testExample1" />
         <item itemvalue="JUnit.SolutionTest (1)" />
         <item itemvalue="JUnit.SolutionTest.testLongNumbers" />
         <item itemvalue="JUnit.SolutionTest.testing8and10result1" />
-        <item itemvalue="JUnit.SolutionTest.testing3and7result3" />
-        <item itemvalue="JUnit.SolutionTest.thirdsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +264,7 @@
       <workItem from="1676301569188" duration="423000" />
       <workItem from="1676303553633" duration="6030000" />
       <workItem from="1676309718259" duration="547000" />
-      <workItem from="1676365279454" duration="1987000" />
+      <workItem from="1676365279454" duration="4956000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
