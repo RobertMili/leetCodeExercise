@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/5018539f6365326943f476d8d839438ae95e3e2c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/addToArrayFOrmOfIngeter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/addToArrayFOrmOfIngeter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -84,14 +87,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="medianOfTwoSortedArrays" />
+      <recent name="subtractTheProductAndSumOfDigitsOfAnInteger" />
+      <recent name="numberOf1Bits" />
       <recent name="runingSumOf1DArray" />
       <recent name="averageSalaryExcludingTheMinimumAndMaximumSalary" />
-      <recent name="CountOddNUmbersInAnIntervalRange" />
-      <recent name="mergeStringAlternately" />
-      <recent name="checkIfTwoStringArraysAreEquivalent" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest">
+  <component name="RunManager" selected="JUnit.SolutionTest (1)">
     <configuration name="singleNumber.Main" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="singleNumber.Main" />
       <module name="leetCode" />
@@ -109,75 +112,76 @@
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CountOddNUmbersInAnIntervalRange.*" />
+          <option name="PATTERN" value="medianOfTwoSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="CountOddNUmbersInAnIntervalRange" />
-      <option name="MAIN_CLASS_NAME" value="CountOddNUmbersInAnIntervalRange.SolutionTest" />
+      <option name="PACKAGE_NAME" value="medianOfTwoSortedArrays" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.SolutionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.Example1 (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runingSumOf1DArray.*" />
+          <option name="PATTERN" value="subtractTheProductAndSumOfDigitsOfAnInteger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runingSumOf1DArray" />
-      <option name="MAIN_CLASS_NAME" value="runingSumOf1DArray.SolutionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.Example1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runingSumOf1DArray.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runingSumOf1DArray" />
-      <option name="MAIN_CLASS_NAME" value="runingSumOf1DArray.SolutionTest" />
+      <option name="PACKAGE_NAME" value="subtractTheProductAndSumOfDigitsOfAnInteger" />
+      <option name="MAIN_CLASS_NAME" value="subtractTheProductAndSumOfDigitsOfAnInteger.SolutionTest" />
       <option name="METHOD_NAME" value="Example1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testExample1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.Example1 (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="averageSalaryExcludingTheMinimumAndMaximumSalary.*" />
+          <option name="PATTERN" value="medianOfTwoSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary" />
-      <option name="MAIN_CLASS_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary.SolutionTest" />
-      <option name="METHOD_NAME" value="testExample1" />
+      <option name="PACKAGE_NAME" value="medianOfTwoSortedArrays" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.SolutionTest" />
+      <option name="METHOD_NAME" value="Example1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.testExample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.Example2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="averageSalaryExcludingTheMinimumAndMaximumSalary.*" />
+          <option name="PATTERN" value="medianOfTwoSortedArrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary" />
-      <option name="MAIN_CLASS_NAME" value="averageSalaryExcludingTheMinimumAndMaximumSalary.SolutionTest" />
-      <option name="METHOD_NAME" value="testExample2" />
+      <option name="PACKAGE_NAME" value="medianOfTwoSortedArrays" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.SolutionTest" />
+      <option name="METHOD_NAME" value="Example2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.Example3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="medianOfTwoSortedArrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="medianOfTwoSortedArrays" />
+      <option name="MAIN_CLASS_NAME" value="medianOfTwoSortedArrays.SolutionTest" />
+      <option name="METHOD_NAME" value="Example3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest" />
-        <item itemvalue="JUnit.SolutionTest.Example1" />
-        <item itemvalue="JUnit.SolutionTest.testExample2" />
-        <item itemvalue="JUnit.SolutionTest.testExample1" />
         <item itemvalue="JUnit.SolutionTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.Example2" />
+        <item itemvalue="JUnit.SolutionTest.Example1 (3)" />
+        <item itemvalue="JUnit.SolutionTest.Example3" />
+        <item itemvalue="JUnit.SolutionTest.Example1 (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +267,9 @@
       <workItem from="1676301569188" duration="423000" />
       <workItem from="1676303553633" duration="6030000" />
       <workItem from="1676309718259" duration="547000" />
-      <workItem from="1676365279454" duration="7081000" />
+      <workItem from="1676365279454" duration="8465000" />
+      <workItem from="1676476924119" duration="2403000" />
+      <workItem from="1676480106216" duration="5094000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -402,6 +408,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medianOfTwoSortedArrays/SolutionTest.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

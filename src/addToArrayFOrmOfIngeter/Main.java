@@ -18,7 +18,7 @@ public class Main {
 
 class Solution {
     public List<Integer> addToArrayForm(int[] num, int k) {
-       List<Integer> result = new ArrayList<>();
+      var result = new ArrayList<Integer>();
 
        int i = num.length - 1;
        while (i >= 0 || k > 0) {
