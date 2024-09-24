@@ -1,50 +1,38 @@
+package Kattis;
+
 import java.util.*;
 
-public class ProblemB {
+class ProblemB {
     public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
-    // Fixed input values
-    final int N = sc.nextInt(); // Number of nodes
-    final int M = sc.nextInt(); // Number of edges
-    final int[][] EDGES = new int[M][2];
-
+        Scanner sc = new Scanner(System.in);
+        int N = sc.nextInt(); // Number of nodes
+        int M = sc.nextInt(); // Number of edges
+        int[][] edges = new int[M][2];
 
         for (int i = 0; i < M; i++) {
-            EDGES[i][0] = sc.nextInt();
-            EDGES[i][1] = sc.nextInt();
+            edges[i][0] = sc.nextInt() - 1;
+            edges[i][1] = sc.nextInt() - 1;
         }
-    final int START = 0;
-    final int END = N-1;
-
-
-        // Build the graph
-        List<List<Integer>> adj = new ArrayList<>(N);
-        for (int i = 0; i < N; i++) {
-            adj.add(new ArrayList<>());
-        }
-        for (int[] edge : EDGES) {
-            int u = edge[0] - 1;
-            int v = edge[1] - 1;
-            adj.get(u).add(v);
-            adj.get(v).add(u);
-        }
+        final int START = 0;
+        final int END = N - 1;
 
         // Compute the maximum number of color changes
-        int maxColorChanges = getMaxColorChanges(N, EDGES, START, END, adj);
+        int maxColorChanges = getMaxColorChanges(N, edges, START, END);
         System.out.println(maxColorChanges);
     }
 
-    static int getMaxColorChanges(int n, int[][] edges, int start, int end, List<List<Integer>> adj) {
+    static int getMaxColorChanges(int n, int[][] edges, int start, int end) {
         int maxChanges = 0;
         int numEdges = edges.length;
         int numColorings = 1 << numEdges; // 2^numEdges
 
+        // Iterate through all possible edge colorings
         for (int mask = 0; mask < numColorings; mask++) {
             // Create the colored graph for this masking
             Map<Integer, Map<Integer, Character>> coloredGraph = new HashMap<>();
             for (int i = 0; i < numEdges; i++) {
-                int u = edges[i][0] - 1;
-                int v = edges[i][1] - 1;
+                int u = edges[i][0];
+                int v = edges[i][1];
                 char color = ((mask & (1 << i)) == 0) ? 'R' : 'B'; // Red or Blue
                 coloredGraph.computeIfAbsent(u, k -> new HashMap<>()).put(v, color);
                 coloredGraph.computeIfAbsent(v, k -> new HashMap<>()).put(u, color);
@@ -79,9 +67,12 @@ public class ProblemB {
                 int nextNode = entry.getKey();
                 char color = entry.getValue();
                 int nextChanges = changes;
-                if (lastColor != -1 && lastColor != color) {
+
+                // Count color change if necessary
+                if (lastColor != -1 && (lastColor == 'R' && color == 'B') || (lastColor == 'B' && color == 'R')) {
                     nextChanges++;
                 }
+
                 if (!visited[nextNode][color == 'R' ? 0 : 1]) {
                     visited[nextNode][color == 'R' ? 0 : 1] = true;
                     queue.offer(new int[]{nextNode, color, nextChanges});
@@ -91,3 +82,4 @@ public class ProblemB {
         return Integer.MAX_VALUE; // unreachable
     }
 }
+
