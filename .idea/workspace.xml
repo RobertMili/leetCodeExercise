@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kattis/ProblemB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kattis/ProblemB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Kattis/ProblemBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kattis/ProblemBTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +92,7 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProblemBTest">
+  <component name="RunManager" selected="Application.ProblemC">
     <configuration name="Kattis.ProblemB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kattis.ProblemB" />
       <module name="leetCode" />
@@ -110,6 +108,13 @@
     </configuration>
     <configuration name="ProblemB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ProblemB" />
+      <module name="leetCode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProblemC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemC" />
       <module name="leetCode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,22 +148,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProblemBTest.testGetMaxColorChanges" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Kattis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Kattis" />
-      <option name="MAIN_CLASS_NAME" value="Kattis.ProblemBTest" />
-      <option name="METHOD_NAME" value="testGetMaxColorChanges" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ProblemBTest.testGetMaxColorChanges3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetCode" />
       <extension name="coverage">
@@ -177,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProblemC" />
+        <item itemvalue="Application.ProblemB" />
         <item itemvalue="JUnit.ProblemBTest" />
         <item itemvalue="JUnit.ProblemBTest.testGetMaxColorChanges3" />
         <item itemvalue="Application.Kattis.ProblemB" />
-        <item itemvalue="Application.ProblemB" />
-        <item itemvalue="JUnit.ProblemBTest.testGetMaxColorChanges" />
       </list>
     </recent_temporary>
   </component>
@@ -264,6 +253,7 @@
       <workItem from="1727102543701" duration="6537000" />
       <workItem from="1727163842471" duration="6851000" />
       <workItem from="1727171656492" duration="8689000" />
+      <workItem from="1727189930771" duration="1457000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
