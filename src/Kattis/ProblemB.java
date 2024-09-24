@@ -1,85 +1,82 @@
 package Kattis;
 
-
 import java.util.*;
 
 class ProblemB {
+
+    // Edge class to represent an edge with a destination and a cost
+    static class Edge {
+        int to, cost;
+
+        Edge(int to, int cost) {
+            this.to = to;
+            this.cost = cost;
+        }
+    }
+
+    static final int INF = Integer.MAX_VALUE; // Infinite cost
+    static List<Edge>[] graph; // Adjacency list for the graph
+    static int[] dist; // Array to store shortest distances
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt(); // Number of nodes
-        int M = sc.nextInt(); // Number of edges
-        int[][] edges = new int[M][2];
+        int n = sc.nextInt(); // Number of nodes
+        int m = sc.nextInt(); // Number of edges
 
-        for (int i = 0; i < M; i++) {
-            edges[i][0] = sc.nextInt() - 1;
-            edges[i][1] = sc.nextInt() - 1;
-        }
-        final int START = 0;
-        final int END = N - 1;
-
-        // Compute the maximum number of color changes
-        int maxColorChanges = getMaxColorChanges(N, edges, START, END);
-        System.out.println(maxColorChanges);
-    }
-
-    static int getMaxColorChanges(int n, int[][] edges, int start, int end) {
-        int maxChanges = 0;
-        int numEdges = edges.length;
-        int numColorings = 1 << numEdges; // 2^numEdges
-
-        // Iterate through all possible edge colorings
-        for (int mask = 0; mask < numColorings; mask++) {
-            // Create the colored graph for this masking
-            Map<Integer, Map<Integer, Character>> coloredGraph = new HashMap<>();
-            for (int i = 0; i < numEdges; i++) {
-                int u = edges[i][0];
-                int v = edges[i][1];
-                char color = ((mask & (1 << i)) == 0) ? 'R' : 'B'; // Red or Blue
-                coloredGraph.computeIfAbsent(u, k -> new HashMap<>()).put(v, color);
-                coloredGraph.computeIfAbsent(v, k -> new HashMap<>()).put(u, color);
-            }
-
-            // BFS to find the minimum color changes on this colored graph
-            int changes = bfsMinColorChanges(n, coloredGraph, start, end);
-            maxChanges = Math.max(maxChanges, changes);
+        // Initialize graph as an adjacency list
+        graph = new ArrayList[n + 1];
+        for (int i = 1; i <= n; i++) {
+            graph[i] = new ArrayList<>();
         }
 
-        return maxChanges;
+        // Read edges and construct the graph
+        for (int i = 0; i < m; i++) {
+            int u = sc.nextInt();
+            int v = sc.nextInt();
+            graph[u].add(new Edge(v, 1)); // cost is 1 as per the C++ code
+            graph[v].add(new Edge(u, 1)); // graph is undirected, so add reverse edge
+        }
+
+        // Run Dijkstra's algorithm from node 1
+        dijkstra(1, n);
+
+        // Output the shortest distance from node 1 to node n
+        if (dist[n] == INF) {
+            System.out.println(0); // If no path, print 0
+        } else {
+            System.out.println(dist[n] - 1); // Print the shortest distance (subtract 1 as per C++ code logic)
+        }
     }
 
-    static int bfsMinColorChanges(int n, Map<Integer, Map<Integer, Character>> graph, int start, int end) {
-        Queue<int[]> queue = new LinkedList<>();
-        boolean[][] visited = new boolean[n][2]; // [node][lastColor]
-        queue.offer(new int[]{start, -1, 0}); // {currentNode, lastColor, changes}
-        visited[start][0] = true;
-        visited[start][1] = true;
+    // Dijkstra's algorithm using a priority queue
+    static void dijkstra(int source, int n) {
+        dist = new int[n + 1]; // Distance array to store shortest distances
+        Arrays.fill(dist, INF); // Initialize distances with infinity
+        dist[source] = 0; // Distance to the source node is 0
 
-        while (!queue.isEmpty()) {
-            int[] state = queue.poll();
-            int node = state[0];
-            int lastColor = state[1];
-            int changes = state[2];
+        // Priority queue to select the node with the smallest distance
+        PriorityQueue<int[]> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
+        pq.offer(new int[]{0, source}); // {distance, node}
 
-            if (node == end) {
-                return changes;
-            }
+        while (!pq.isEmpty()) {
+            int[] current = pq.poll();
+            int currentDist = current[0];
+            int node = current[1];
 
-            for (Map.Entry<Integer, Character> entry : graph.getOrDefault(node, Collections.emptyMap()).entrySet()) {
-                int nextNode = entry.getKey();
-                char color = entry.getValue();
-                int nextChanges = changes;
+            // If we have already found a better path, skip this one
+            if (currentDist > dist[node]) continue;
 
-                // Count color change if necessary
-                if (lastColor != -1 && (lastColor == 'R' && color == 'B') || (lastColor == 'B' && color == 'R')) {
-                    nextChanges++;
-                }
+            // Traverse all neighbors
+            for (Edge edge : graph[node]) {
+                int neighbor = edge.to;
+                int newDist = dist[node] + edge.cost;
 
-                if (!visited[nextNode][color == 'R' ? 0 : 1]) {
-                    visited[nextNode][color == 'R' ? 0 : 1] = true;
-                    queue.offer(new int[]{nextNode, color, nextChanges});
+                // If we find a shorter path to the neighbor, update the distance
+                if (newDist < dist[neighbor]) {
+                    dist[neighbor] = newDist;
+                    pq.offer(new int[]{newDist, neighbor});
                 }
             }
         }
-        return Integer.MAX_VALUE; // unreachable
     }
 }

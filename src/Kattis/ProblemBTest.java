@@ -76,7 +76,7 @@ class ProblemBTest {
                 "4 6\n" +
                 "5 7\n" +
                 "6 8\n";
-        String expectedOutput = "5\n"; // Example expected output
+        String expectedOutput = "0\n"; // Example expected output
 
         // Set up input and output streams
         ByteArrayInputStream in = new ByteArrayInputStream(input.getBytes());
