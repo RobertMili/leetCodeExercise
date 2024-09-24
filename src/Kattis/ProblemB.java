@@ -1,5 +1,6 @@
 package Kattis;
 
+
 import java.util.*;
 
 class ProblemB {
@@ -82,4 +83,3 @@ class ProblemB {
         return Integer.MAX_VALUE; // unreachable
     }
 }
-
