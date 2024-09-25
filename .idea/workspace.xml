@@ -7,6 +7,7 @@
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Kattis/ProblemC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kattis/ProblemC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Kattis/ProblemCTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Kattis/ProblemCTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +94,7 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProblemCTest.testSingleCell">
+  <component name="RunManager" selected="Application.ProblemC">
     <configuration name="Kattis.ProblemC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Kattis.ProblemC" />
       <module name="leetCode" />
@@ -176,10 +177,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProblemC" />
         <item itemvalue="JUnit.ProblemCTest.testSingleCell" />
         <item itemvalue="JUnit.ProblemCTest" />
         <item itemvalue="Application.Kattis.ProblemC" />
-        <item itemvalue="Application.ProblemC" />
         <item itemvalue="JUnit.ProblemCTest.testExample1" />
       </list>
     </recent_temporary>
@@ -263,7 +264,7 @@
       <workItem from="1727102543701" duration="6537000" />
       <workItem from="1727163842471" duration="6851000" />
       <workItem from="1727171656492" duration="8689000" />
-      <workItem from="1727189930771" duration="22773000" />
+      <workItem from="1727189930771" duration="23113000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -449,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727191798836</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="this is not working right">
+      <option name="closed" value="true" />
+      <created>1727261566453</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1727261566453</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +494,8 @@
     <MESSAGE value="add two number's" />
     <MESSAGE value="now is working" />
     <MESSAGE value="this is working now problem C exofficio" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is working now problem C exofficio" />
+    <MESSAGE value="this is not working right" />
+    <option name="LAST_COMMIT_MESSAGE" value="this is not working right" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -503,11 +513,6 @@
           <url>file://$PROJECT_DIR$/src/medianOfTwoSortedArrays/SolutionTest.java</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Kattis/ProblemC.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
