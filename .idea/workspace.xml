@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
+    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="add minimum size subarray sum">
+      <change afterPath="$PROJECT_DIR$/src/minimumSizeSubarraySum/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -92,13 +93,13 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValidSudoku (4)">
-    <configuration name="ValidSudoku (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validSudoku.ValidSudoku" />
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sprialMatrix.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validSudoku.*" />
+          <option name="PATTERN" value="sprialMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validSudoku.ValidSudoku" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sprialMatrix.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validSudoku.*" />
+          <option name="PATTERN" value="sprialMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validSudoku.ValidSudoku" />
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sprialMatrix.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validSudoku.*" />
+          <option name="PATTERN" value="sprialMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validSudoku.ValidSudoku" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sprialMatrix.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validSudoku.*" />
+          <option name="PATTERN" value="sprialMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidSudoku" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="validSudoku.ValidSudoku" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sprialMatrix.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="validSudoku.*" />
+          <option name="PATTERN" value="sprialMatrix.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidSudoku (4)" />
-        <item itemvalue="Application.ValidSudoku (3)" />
-        <item itemvalue="Application.ValidSudoku (2)" />
-        <item itemvalue="Application.ValidSudoku (1)" />
-        <item itemvalue="Application.ValidSudoku" />
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +264,10 @@
       <workItem from="1727189930771" duration="25883000" />
       <workItem from="1727271001365" duration="4471000" />
       <workItem from="1727279946427" duration="9174000" />
-      <workItem from="1727338786527" duration="5807000" />
+      <workItem from="1727338786527" duration="9081000" />
+      <workItem from="1727420888576" duration="43000" />
+      <workItem from="1727447096252" duration="2968000" />
+      <workItem from="1727604679398" duration="4746000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -513,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727289965760</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="add valid sudoku">
+      <option name="closed" value="true" />
+      <created>1727344800976</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1727344800976</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,8 +543,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing" />
-    <MESSAGE value="testing." />
     <MESSAGE value="testing.asd" />
     <MESSAGE value="testing.asd&#10;asd" />
     <MESSAGE value="Martin" />
@@ -556,7 +566,9 @@
     <MESSAGE value="add two sum 2 Input array is sorted" />
     <MESSAGE value="add container with most watter" />
     <MESSAGE value="add three sum (Brutal force algoritam)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add three sum (Brutal force algoritam)" />
+    <MESSAGE value="add valid sudoku" />
+    <MESSAGE value="add minimum size subarray sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="add minimum size subarray sum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
