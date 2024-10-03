@@ -92,13 +92,13 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.happyNumber.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoSumOptimizering.Main" />
+      <option name="MAIN_CLASS_NAME" value="containsDuplicate2.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoSumOptimizering.*" />
+          <option name="PATTERN" value="containsDuplicate2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoSumOptimizering.Main" />
+      <option name="MAIN_CLASS_NAME" value="containsDuplicate2.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoSumOptimizering.*" />
+          <option name="PATTERN" value="containsDuplicate2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoSumOptimizering.Main" />
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containsDuplicate2.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoSumOptimizering.*" />
+          <option name="PATTERN" value="containsDuplicate2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="containsDuplicate2.Main" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="containsDuplicate2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,24 +146,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="twoSumOptimizering.Main" />
+      <option name="MAIN_CLASS_NAME" value="containsDuplicate2.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="twoSumOptimizering.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="happyNumber.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="happyNumber.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="happyNumber.*" />
+          <option name="PATTERN" value="containsDuplicate2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.happyNumber.Main" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +272,7 @@
       <workItem from="1727788003376" duration="3412000" />
       <workItem from="1727858331024" duration="5459000" />
       <workItem from="1727878816398" duration="7927000" />
-      <workItem from="1727961786882" duration="980000" />
+      <workItem from="1727961786882" duration="3277000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -586,7 +586,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727881827106</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="add happy number">
+      <option name="closed" value="true" />
+      <created>1727962800444</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1727962800444</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add h-Index" />
     <MESSAGE value="add length of last word" />
     <MESSAGE value="add reverse Word In A String" />
     <MESSAGE value="add find the index of the first occurenceln a string" />
@@ -629,7 +636,8 @@
     <MESSAGE value="add isomorphic Strings" />
     <MESSAGE value="add valid anagram" />
     <MESSAGE value="add group anagrams" />
-    <option name="LAST_COMMIT_MESSAGE" value="add group anagrams" />
+    <MESSAGE value="add happy number" />
+    <option name="LAST_COMMIT_MESSAGE" value="add happy number" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
