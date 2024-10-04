@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/longestConsecutiveSequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/longestConsecutiveSequence/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +93,13 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longestConsecutiveSequence.Main" />
+      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="longestConsecutiveSequence.*" />
+          <option name="PATTERN" value="summaryRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +108,24 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longestConsecutiveSequence.Main" />
+      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="longestConsecutiveSequence.*" />
+          <option name="PATTERN" value="summaryRanges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="summaryRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,24 +134,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longestConsecutiveSequence.Main" />
+      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="longestConsecutiveSequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longestConsecutiveSequence.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="longestConsecutiveSequence.*" />
+          <option name="PATTERN" value="summaryRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +147,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="longestConsecutiveSequence.Main" />
+      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="longestConsecutiveSequence.*" />
+          <option name="PATTERN" value="summaryRanges.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -272,7 +273,8 @@
       <workItem from="1727788003376" duration="3412000" />
       <workItem from="1727858331024" duration="5459000" />
       <workItem from="1727878816398" duration="7927000" />
-      <workItem from="1727961786882" duration="5031000" />
+      <workItem from="1727961786882" duration="5676000" />
+      <workItem from="1728034238503" duration="2906000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -602,7 +604,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727965487460</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="add longest Consecutive Sequence">
+      <option name="closed" value="true" />
+      <created>1727967126616</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1727967126616</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -620,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add reverse Word In A String" />
     <MESSAGE value="add find the index of the first occurenceln a string" />
     <MESSAGE value="add two number's" />
     <MESSAGE value="now is working" />
@@ -645,7 +654,8 @@
     <MESSAGE value="add group anagrams" />
     <MESSAGE value="add happy number" />
     <MESSAGE value="add contains duplicate 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add contains duplicate 2" />
+    <MESSAGE value="add longest Consecutive Sequence" />
+    <option name="LAST_COMMIT_MESSAGE" value="add longest Consecutive Sequence" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
