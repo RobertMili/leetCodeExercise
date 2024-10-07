@@ -92,26 +92,13 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplifyPath.Main" />
+      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueues.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplifyPath.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplifyPath.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="simplifyPath.*" />
+          <option name="PATTERN" value="ImplementStackUsingQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplifyPath.Main" />
+      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueues.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplifyPath.*" />
+          <option name="PATTERN" value="ImplementStackUsingQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplifyPath.Main" />
+      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueues.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplifyPath.*" />
+          <option name="PATTERN" value="ImplementStackUsingQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +133,24 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simplifyPath.Main" />
+      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueues.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simplifyPath.*" />
+          <option name="PATTERN" value="ImplementStackUsingQueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ImplementStackUsingQueues.Main" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ImplementStackUsingQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,7 +279,7 @@
       <workItem from="1728120490761" duration="1911000" />
       <workItem from="1728294094631" duration="2075000" />
       <workItem from="1728296219092" duration="1780000" />
-      <workItem from="1728306700058" duration="3317000" />
+      <workItem from="1728306700058" duration="6934000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -633,7 +633,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728308410125</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="add simplify path">
+      <option name="closed" value="true" />
+      <created>1728310265134</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1728310265134</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -651,7 +659,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="now is working" />
     <MESSAGE value="this is working now problem C exofficio" />
     <MESSAGE value="this is not working right" />
     <MESSAGE value="now is passing a 40 test" />
@@ -676,7 +683,8 @@
     <MESSAGE value="add longest Consecutive Sequence" />
     <MESSAGE value="add insert interval" />
     <MESSAGE value="add valid parenthers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add valid parenthers" />
+    <MESSAGE value="add simplify path" />
+    <option name="LAST_COMMIT_MESSAGE" value="add simplify path" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
