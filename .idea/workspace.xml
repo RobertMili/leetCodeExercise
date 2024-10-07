@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/longestConsecutiveSequence/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/longestConsecutiveSequence/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,11 +94,11 @@
   </component>
   <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
+      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="summaryRanges.*" />
+          <option name="PATTERN" value="insertInterval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
+      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="summaryRanges.*" />
+          <option name="PATTERN" value="insertInterval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +120,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
+      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="summaryRanges.*" />
+          <option name="PATTERN" value="insertInterval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +133,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
+      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="summaryRanges.*" />
+          <option name="PATTERN" value="insertInterval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="summaryRanges.Main" />
+      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="summaryRanges.*" />
+          <option name="PATTERN" value="insertInterval.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,10 +174,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +274,11 @@
       <workItem from="1727878816398" duration="7927000" />
       <workItem from="1727961786882" duration="5676000" />
       <workItem from="1728034238503" duration="2906000" />
+      <workItem from="1728039802919" duration="3334000" />
+      <workItem from="1728048807451" duration="295000" />
+      <workItem from="1728120490761" duration="1911000" />
+      <workItem from="1728294094631" duration="2075000" />
+      <workItem from="1728296219092" duration="1780000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
