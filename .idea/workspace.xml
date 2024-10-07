@@ -92,13 +92,13 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
+      <option name="MAIN_CLASS_NAME" value="validParenthesesTwo.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertInterval.*" />
+          <option name="PATTERN" value="validParenthesesTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,24 +107,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
+      <option name="MAIN_CLASS_NAME" value="validParenthesesTwo.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertInterval.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="insertInterval.*" />
+          <option name="PATTERN" value="validParenthesesTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +120,24 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
+      <option name="MAIN_CLASS_NAME" value="validParenthesesTwo.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertInterval.*" />
+          <option name="PATTERN" value="validParenthesesTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="validParenthesesTwo.Main" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="validParenthesesTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,11 +146,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="insertInterval.Main" />
+      <option name="MAIN_CLASS_NAME" value="validParenthesesTwo.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="insertInterval.*" />
+          <option name="PATTERN" value="validParenthesesTwo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (5)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -279,6 +279,7 @@
       <workItem from="1728120490761" duration="1911000" />
       <workItem from="1728294094631" duration="2075000" />
       <workItem from="1728296219092" duration="1780000" />
+      <workItem from="1728306700058" duration="1599000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -616,7 +617,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727967126616</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="add insert interval">
+      <option name="closed" value="true" />
+      <created>1728306717455</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728306717455</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -634,7 +643,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add find the index of the first occurenceln a string" />
     <MESSAGE value="add two number's" />
     <MESSAGE value="now is working" />
     <MESSAGE value="this is working now problem C exofficio" />
@@ -659,7 +667,8 @@
     <MESSAGE value="add happy number" />
     <MESSAGE value="add contains duplicate 2" />
     <MESSAGE value="add longest Consecutive Sequence" />
-    <option name="LAST_COMMIT_MESSAGE" value="add longest Consecutive Sequence" />
+    <MESSAGE value="add insert interval" />
+    <option name="LAST_COMMIT_MESSAGE" value="add insert interval" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
