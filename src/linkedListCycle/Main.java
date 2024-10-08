@@ -8,22 +8,19 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         Solution solution = new Solution();
-        
-        
-        // Create the linked list: [3, 2, 0, -4]
-        ListNode head = new ListNode(3);
-        ListNode second = new ListNode(2);
-        ListNode third = new ListNode(0);
-        ListNode fourth = new ListNode(-4);
 
-        head.next = second;
-        second.next = third;
-        third.next = fourth;
-        // Create the cycle: last node (-4) points to the second node (2)
-        fourth.next = second; // Cycle at position 1
+
+        // Create the linked list: [-21, 10, 17, 8, 4, 26, 5, 35, 33, -7, -16, 27, -12, 6, 29, -12, 5, 9, 20, 14, 14, 2, 13, -24, 21, 23, -21, 5]
+        int[] values = {-21, 10, 17, 8, 4, 26, 5, 35, 33, -7, -16, 27, -12, 6, 29, -12, 5, 9, 20, 14, 14, 2, 13, -24, 21, 23, -21, 5};
+        ListNode head = new ListNode(values[0]);
+        ListNode current = head;
+
+        for (int i = 1; i < values.length; i++) {
+            current.next = new ListNode(values[i]);
+            current = current.next;
+        }
 
         // Instantiate Solution class and check for cycle
-
         boolean hasCycle = solution.hasCycle(head);
 
         // Print result
@@ -39,8 +36,8 @@ class Solution{
             return false;
         }
 
-        var fast= head.next;
-        var slow = head.next.next;
+        var fast= head;
+        var slow = head;
 
 
         while (fast != null && fast.next != null) {
