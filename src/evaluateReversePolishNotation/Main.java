@@ -8,7 +8,7 @@ public class Main {
         Solution solution = new Solution();
 
         String[] token = {"2", "1", "+", "3", "*"};
-        String[] token2 = {"4", "13", "5", "/", "+"};
+        String[] token2 = {"1", "+", "1"};
 
         System.out.println("this is a return " + solution.evalRPN(token2));
 

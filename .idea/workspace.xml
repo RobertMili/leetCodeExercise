@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/evaluateReversePolishNotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/evaluateReversePolishNotation/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,13 +93,13 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (4)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="evaluateReversePolishNotation.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedListCycle.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evaluateReversePolishNotation.*" />
+          <option name="PATTERN" value="linkedListCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +108,11 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="evaluateReversePolishNotation.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedListCycle.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evaluateReversePolishNotation.*" />
+          <option name="PATTERN" value="linkedListCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="evaluateReversePolishNotation.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedListCycle.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evaluateReversePolishNotation.*" />
+          <option name="PATTERN" value="linkedListCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +134,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="evaluateReversePolishNotation.Main" />
+      <option name="MAIN_CLASS_NAME" value="linkedListCycle.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evaluateReversePolishNotation.*" />
+          <option name="PATTERN" value="linkedListCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +146,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="evaluateReversePolishNotation.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedListCycle.Main" />
       <module name="leetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="evaluateReversePolishNotation.*" />
+          <option name="PATTERN" value="linkedListCycle.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +281,8 @@
       <workItem from="1728294094631" duration="2075000" />
       <workItem from="1728296219092" duration="1780000" />
       <workItem from="1728306700058" duration="9257000" />
-      <workItem from="1728383254803" duration="1221000" />
+      <workItem from="1728383254803" duration="4894000" />
+      <workItem from="1728399954113" duration="1004000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -377,14 +379,6 @@
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1676292081652</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add prepairing for tech interviu">
-      <option name="closed" value="true" />
-      <created>1727025915188</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1727025915188</updated>
     </task>
     <task id="LOCAL-00016" summary="add prepairing for tech interviu">
       <option name="closed" value="true" />
@@ -658,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728316758784</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add evaluate Reverse Polish Notation">
+      <option name="closed" value="true" />
+      <created>1728384540096</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1728384540096</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -676,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="now is passing a 40 test" />
     <MESSAGE value="this is passing a 41 test" />
     <MESSAGE value="add valid Palindrome string" />
     <MESSAGE value="add is susequence" />
@@ -701,7 +702,8 @@
     <MESSAGE value="add simplify path" />
     <MESSAGE value="add implement stack using queues" />
     <MESSAGE value="add min stack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add min stack" />
+    <MESSAGE value="add evaluate Reverse Polish Notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="add evaluate Reverse Polish Notation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
