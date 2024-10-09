@@ -281,7 +281,8 @@
       <workItem from="1728296219092" duration="1780000" />
       <workItem from="1728306700058" duration="9257000" />
       <workItem from="1728383254803" duration="4894000" />
-      <workItem from="1728399954113" duration="4000000" />
+      <workItem from="1728399954113" duration="4455000" />
+      <workItem from="1728485637992" duration="35000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -378,14 +379,6 @@
       <option name="presentableId" value="LOCAL-00014" />
       <option name="project" value="LOCAL" />
       <updated>1676292081652</updated>
-    </task>
-    <task id="LOCAL-00018" summary="add h-Index">
-      <option name="closed" value="true" />
-      <created>1727099352891</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1727099352891</updated>
     </task>
     <task id="LOCAL-00019" summary="add length of last word">
       <option name="closed" value="true" />
@@ -659,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728401422253</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="add two number second list node">
+      <option name="closed" value="true" />
+      <created>1728403966803</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1728403966803</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add is susequence" />
     <MESSAGE value="add is subsequence" />
     <MESSAGE value="add two sum 2 Input array is sorted" />
     <MESSAGE value="add container with most watter" />
@@ -702,7 +702,8 @@
     <MESSAGE value="add evaluate Reverse Polish Notation" />
     <MESSAGE value="add linked list cycle" />
     <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <MESSAGE value="add two number second list node" />
+    <option name="LAST_COMMIT_MESSAGE" value="add two number second list node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
