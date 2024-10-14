@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="">
+    <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="testing github verification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RemoveDuplciatesFromSortedArray/RemoveDuplciatesFromSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveDuplciatesFromSortedArray/RemoveDuplciatesFromSortedArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,6 +284,7 @@
       <workItem from="1728383254803" duration="4894000" />
       <workItem from="1728399954113" duration="4455000" />
       <workItem from="1728485637992" duration="35000" />
+      <workItem from="1728889999144" duration="299000" />
     </task>
     <task id="LOCAL−00001" summary="2.day">
       <created>1671274569975</created>
@@ -678,7 +680,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add is subsequence" />
     <MESSAGE value="add two sum 2 Input array is sorted" />
     <MESSAGE value="add container with most watter" />
     <MESSAGE value="add three sum (Brutal force algoritam)" />
@@ -703,7 +704,8 @@
     <MESSAGE value="add linked list cycle" />
     <MESSAGE value="update" />
     <MESSAGE value="add two number second list node" />
-    <option name="LAST_COMMIT_MESSAGE" value="add two number second list node" />
+    <MESSAGE value="testing github verification" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing github verification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
