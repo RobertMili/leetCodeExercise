@@ -92,7 +92,7 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addTwoNumbersSecond.Main" />
       <module name="leetCode" />
