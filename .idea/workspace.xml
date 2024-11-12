@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c87a9d95-1094-4f4b-9223-fffa89e63a49" name="Changes" comment="testing github verification">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/RemoveDuplciatesFromSortedArray/RemoveDuplciatesFromSortedArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RemoveDuplciatesFromSortedArray/RemoveDuplciatesFromSortedArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -93,7 +92,33 @@
       <recent name="numberOf1Bits" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ChemicalMachine">
+    <configuration name="ChemicalMachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDomen.ChemicalMachine" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDomen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GamePlatform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestDomen.GamePlatform" />
+      <module name="leetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestDomen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addTwoNumbersSecond.Main" />
       <module name="leetCode" />
@@ -108,32 +133,6 @@
       </method>
     </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addTwoNumbersSecond.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addTwoNumbersSecond.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="addTwoNumbersSecond.Main" />
-      <module name="leetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="addTwoNumbersSecond.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="addTwoNumbersSecond.Main" />
       <module name="leetCode" />
       <extension name="coverage">
@@ -174,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ChemicalMachine" />
+        <item itemvalue="Application.GamePlatform" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -284,13 +283,11 @@
       <workItem from="1728383254803" duration="4894000" />
       <workItem from="1728399954113" duration="4455000" />
       <workItem from="1728485637992" duration="35000" />
-      <workItem from="1728889999144" duration="299000" />
-    </task>
-    <task id="LOCAL−00001" summary="2.day">
-      <created>1671274569975</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1671274569975</updated>
+      <workItem from="1728889999144" duration="391000" />
+      <workItem from="1729510873825" duration="190000" />
+      <workItem from="1729762966270" duration="10000" />
+      <workItem from="1730144725680" duration="62000" />
+      <workItem from="1731406532233" duration="6687000" />
     </task>
     <task id="LOCAL−00002" summary="2.day">
       <created>1671274585030</created>
@@ -662,7 +659,13 @@
       <option name="project" value="LOCAL" />
       <updated>1728403966803</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL−00054" summary="testing github verification">
+      <created>1728890368062</created>
+      <option name="number" value="LOCAL−00054" />
+      <option name="presentableId" value="LOCAL−00054" />
+      <updated>1728890368070</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
